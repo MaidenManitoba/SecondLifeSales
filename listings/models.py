@@ -16,3 +16,5 @@ class listing(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True) 
 
+    #Image
+    image = models.ImageField(default=None)
